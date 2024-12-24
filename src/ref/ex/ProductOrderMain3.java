@@ -13,7 +13,7 @@ public class ProductOrderMain3 {
 
         ProductOrder[] order = new ProductOrder[n];
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < order.length; i++) {
             System.out.println((i+1) + "번째 주문 정보를 입력하세요.");
 
             System.out.print("상품명 : ");
