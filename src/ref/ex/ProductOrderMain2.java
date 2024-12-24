@@ -18,7 +18,7 @@ public class ProductOrderMain2 {
         int totalAmount = getTotalAmount(orders);   // ctrl + alt + v 단축키 사용 시 변수명 생성
 
         // 총 결게 금액 출력
-        System.out.println("총 결제 금액 : " + total);
+        System.out.println("총 결제 금액 : " + totalAmount);
     }
 
     static ProductOrder createOrder(String productName, int price, int quantity) {
