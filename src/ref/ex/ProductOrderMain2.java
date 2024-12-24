@@ -15,7 +15,7 @@ public class ProductOrderMain2 {
         printOrders(orders);
 
         // getTotalAmount() 사용해서 총 결제 금액 계산
-        int total = getTotalAmount(orders);
+        int totalAmount = getTotalAmount(orders);   // ctrl + alt + v 단축키 사용 시 변수명 생성
 
         // 총 결게 금액 출력
         System.out.println("총 결제 금액 : " + total);
