@@ -23,7 +23,7 @@ public class ShoppingCart {
         System.out.println("전체 가격 합 : " + calculateTotal());
     }
 
-    public int calculateTotal() {
+    private int calculateTotal() {
         int totalPrice = 0;
         for(int i = 0; i < itemCount; i++) {
             Item item = items[i];
