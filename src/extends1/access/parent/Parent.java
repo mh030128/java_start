@@ -24,7 +24,7 @@ public class Parent {
     }
 
     public void printParent() {
-        System.out.println("==Parent 메서드 안");
+        System.out.println("==Parent 메서드 안==");
         System.out.println("publicValue = " + publicValue);
         System.out.println("protectedValue = " + protectValue);
         System.out.println("defaultValue = " + defaultValue);
